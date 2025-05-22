@@ -7,11 +7,28 @@ class Program
     static void Main(string[] args)
     {
         string _menuInput = "";
+        Menu myMenu = new Menu();
 
         while (_menuInput != "5")
         {
-            Menu myMenu = new Menu();
-            myMenu.DisplayMenu();
+            _menuInput = myMenu.DisplayMenu();
+
+            if (_menuInput == "1")
+            {
+            }
+            if (_menuInput == "2")
+            {
+            }
+            if ( == "3")
+            {
+            }
+            if ( == "4")
+            {
+            }
+            else
+            {
+                Console.WriteLine("Goodbye.");
+            }
         }
     }
 }
